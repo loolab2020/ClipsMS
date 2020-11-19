@@ -1,4 +1,4 @@
-# I-Frag
+# Comprehensive Localization of Internal Protein Sequences (ClipsMS)
 Software that can analyze terminal and internal fragments from top-down mass spectrometry data.
 Download Instructions:
 1.	Download the zip file from github. (This can be found under "Code" on the top right)
@@ -17,7 +17,7 @@ Download Instructions:
 16.	On the top right side of the software, open the folder that contains all the .csv and .py files from the zip file.
 17. On the bottom of the top right pannel click "Files." (This should have all the files in the folder.)
 18.	Open the setup.py file and run the script. (This will download all the packages need to run the script.)
-19.	The program should be ready to run. Open the Test_GUI.py file and run it. 
+19.	The program should be ready to run. Open the Test_GUI.py file and run it. (Green Arrow at the top of the software)
 
 
 Program instructions:
