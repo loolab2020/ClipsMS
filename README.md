@@ -5,20 +5,20 @@ Installation Instructions:
 1.	Download the zip file from github. (This can be found under "Code" on the top right)
 2.	Go to your downloads file and extract the files
 3.	Place the unzipped file where it will be easy to find.
-4.	Download Anaconda.
-5.	Open file and begin installation. 
-6.	We recommend installing for all users.
-7.	Install in the "ProgramData" folder.
-8.	If this is your first time installing python and anaconda click both boxes in the "advanced installation options" dialog box.
-9.	Install the software. 
-10.	Once installed click next.
-13.	Go through all the other options, click finish. 
-14.	Once anaconda is downloaded search for “anaconda prompt” on your computer.
-15.	Type “start spyder” to start Spyder software
-16.	On the top right side of the software, open the unzipped folder that contains all the .csv and .py files from the zip file.
-17. On the bottom of the top right panel click "Files." (This should have all the files in the unzipped folder.)
-18.	Open the setup.py file and run the script. (This will download all the packages need to run the script and print each package as it is being downloaded.)
-19.	The program should be ready to run. Open the Test_GUI.py file and run it. (Green Arrow at the top of Spyder)
+4.	Download and install Anaconda.
+  4a.	Open file and begin installation. 
+  4b.	We recommend installing for all users.
+  4c.	Install in the "ProgramData" folder.
+  4d.	If this is your first time installing python and anaconda click both boxes in the "advanced installation options" dialog box.
+  4e.	Install the software. 
+  4f.	Once installed click next.
+  4g.	Go through all the other options, click finish. 
+5.	Once anaconda is downloaded and installed search for “anaconda prompt” on your computer.
+6.	Type “start spyder” to start Spyder software
+7.	On the top right side of the software, open the unzipped folder that contains all the .csv and .py files from the zip file.
+8. On the bottom of the top right panel click "Files." (This should have all the files in the unzipped folder.)
+9.	Open the setup.py file and run the script. (This will download all the packages need to run the script and print each package as it is being downloaded.)
+10.	The program should be ready to run. Open the Test_GUI.py file and run it. (Green Arrow at the top of Spyder)
 
 
 Program instructions:
