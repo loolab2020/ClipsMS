@@ -6,13 +6,13 @@ Installation Instructions:
 2.	Go to your downloads file and extract the files
 3.	Place the unzipped file where it will be easy to find.
 4.	Download and install Anaconda.
-4a.	Open file and begin installation. 
-4b.	We recommend installing for all users.
-4c.	Install in the "ProgramData" folder.
-4d.	If this is your first time installing python and anaconda click both boxes in the "advanced installation options" dialog box.
-4e.	Install the software. 
-4f.	Once installed click next.
-4g.	Go through all the other options, click finish. 
+  4a.	Open file and begin installation. 
+  4b.	We recommend installing for all users.
+  4c.	Install in the "ProgramData" folder.
+  4d.	If this is your first time installing python and anaconda click both boxes in the "advanced installation options" dialog box.
+  4e.	Install the software. 
+  4f.	Once installed click next.
+  4g.	Go through all the other options, click finish. 
 5.	Once anaconda is downloaded and installed search for “anaconda prompt” on your computer.
 6.	Type “start spyder” to start Spyder software
 7.	On the top right side of the software, open the unzipped folder that contains all the .csv and .py files from the zip file.
