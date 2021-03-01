@@ -362,7 +362,7 @@ def Known_Modifications():
     canvas6.create_window(175, 10, window=Label12)
     file = askopenfile(mode = 'r', filetypes = [('csv files', '*.csv')])
     content = file.read()
-    print('Fixed Modifications Read')
+    print('Localized Modifications Read')
     with open('Known_Modifications.csv', 'w') as csvFile:
         data = content
         csvFile.write(data)
@@ -542,10 +542,10 @@ button_1 = Button(bottomframe, text = "Run Program", command = runProgram)
 button_1['font']= Button_Font
 
 button_2 = Button(leftframe, text = "Observed Fragments", command = Fragments)
-button_3 = Button(leftframe, text = "Variable Modifications", command = Modifications)
-button_4 = Button(leftframe, text = "Fixed Modifications", command = Known_Modifications)
-check_box_28 = tk.Checkbutton(leftframe,text = 'No Variable Modifications', variable = var28, onvalue = 1, command = No_Variable_Modifications)
-check_box_30 = tk.Checkbutton(leftframe,text = 'No Fixed Modifications', variable = var30, onvalue = 1, command = No_Known_Modifications)
+button_3 = Button(leftframe, text = "Unlocalized Modifications", command = Modifications)
+button_4 = Button(leftframe, text = "Localized Modifications", command = Known_Modifications)
+check_box_28 = tk.Checkbutton(leftframe,text = 'No Unlocalized Modifications', variable = var28, onvalue = 1, command = No_Variable_Modifications)
+check_box_30 = tk.Checkbutton(leftframe,text = 'No Localized Modifications', variable = var30, onvalue = 1, command = No_Known_Modifications)
 check_box_1= tk.Checkbutton(leftframe, text = 'Acetylation', variable = var1, onvalue = 1, command = Uncheck_boxes_1)
 check_box_2= tk.Checkbutton(leftframe, text = 'Deamination', variable = var2, onvalue = 1, command = Uncheck_boxes_2)
 check_box_3= tk.Checkbutton(leftframe, text = 'Methylation', variable = var3, onvalue = 1, command = Uncheck_boxes_3)
