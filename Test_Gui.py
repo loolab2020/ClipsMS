@@ -566,7 +566,7 @@ check_box_11= tk.Checkbutton(rightframe,text = 'C Fragments', variable = var11, 
 check_box_12= tk.Checkbutton(rightframe,text = 'X Fragments', variable = var12, onvalue = 1)
 check_box_13= tk.Checkbutton(rightframe,text = 'Y Fragments', variable = var13, onvalue = 1)
 check_box_14= tk.Checkbutton(rightframe,text = 'Z Fragments', variable = var14, onvalue = 1)
-check_box_15= tk.Checkbutton(rightframe,text = 'AX fragments', variable = var15, onvalue = 1)
+check_box_15= tk.Checkbutton(rightframe,text = 'AX Fragments', variable = var15, onvalue = 1)
 check_box_16= tk.Checkbutton(rightframe,text = 'AY Fragments', variable = var16, onvalue = 1)
 check_box_17= tk.Checkbutton(rightframe,text = 'AZ Fragments', variable = var17, onvalue = 1)
 check_box_18= tk.Checkbutton(rightframe,text = 'BX Fragments', variable = var18, onvalue = 1)
