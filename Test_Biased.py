@@ -2571,7 +2571,7 @@ if length_sequence < 10:
     plt.xticks(np.arange(0, length_sequence + 1, step=1))
 else:
     plt.xticks(np.arange(0, length_sequence + 1, step=round(length_sequence/10)))
-plt.xlabel('Amino acid number')
+plt.xlabel('Amino Acid Number')
 f=pd.read_csv("Matched_Fragments_V2.csv")
 keep_col = ['Frag Type', 'Fixed Mod', 'Variable Mod', 'Term Mod', 'Observed Mass', 'Theoredical Mass', 'Start AA', 'End AA', 'Error', 'Sequence', 'Intensity', 'Formula']
 new_f = f[keep_col]
