@@ -4,7 +4,7 @@
 #
 #setup(name = 'Distutils',
 #      version = '1.0.0',
-#      description = 'I-Frag',
+#      description = 'ClipsMS',
 #      author = 'Carter Lantz',
 #      author_email = 'internalfragments.loolab@gmail.com',
 #      url = 'Website',
