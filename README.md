@@ -2,10 +2,10 @@
 Software that can analyze terminal and internal fragments resulting from top-down mass spectrometry data.
 
 Installation Instructions:
-1.	Download the zip file from github. (This can be found under "Code" on the top right)
-2.	Go to your downloads file and extract the files
-3.	Place the unzipped file where it will be easy to find.
-4.	Download and install Anaconda.
+1. Download the zip file from github. (This can be found under "Code" on the top right)
+2. Go to your downloads file and extract the files
+3. Place the unzipped file where it will be easy to find.
+4. Download and install Anaconda.
   4a.	Open file and begin installation. 
   4b.	We recommend installing for all users.
   4c.	Install in the "ProgramData" folder.
@@ -13,12 +13,13 @@ Installation Instructions:
   4e.	Install the software. 
   4f.	Once installed click next.
   4g.	Go through all the other options, click finish. 
-5.	Once anaconda is downloaded and installed search for “anaconda prompt” on your computer.
-6.	Type “start spyder” to start Spyder software
-7.	On the top right side of the software, open the unzipped folder that contains all the .csv and .py files from the zip file.
-8. On the bottom of the top right panel click "Files." (This should have all the files in the unzipped folder.)
-9.	Open the setup.py file and run the script. (This will download all the packages need to run the script and print each package as it is being downloaded.)
-10.	The program should be ready to run. Open the Test_GUI.py file and run it. (Green Arrow at the top of Spyder)
+5. Once anaconda is downloaded and installed search for “anaconda prompt” on your computer.
+6. Type “start spyder” to start Spyder software
+7. Make sure that Spyder is running at least python 3.7.
+8. On the top right side of the software, open the unzipped folder that contains all the .csv and .py files from the zip file.
+9. On the bottom of the top right panel click "Files." (This should have all the files in the unzipped folder.)
+10. Open the setup.py file and run the script. (This will download all the packages need to run the script and print each package as it is being downloaded.)
+11. The program should be ready to run. Open the Test_GUI.py file and run it. (Green Arrow at the top of Spyder)
 
 
 Program instructions:
