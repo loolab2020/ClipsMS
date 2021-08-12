@@ -206,7 +206,7 @@ for i in range(0, x):
     arraf.append(reversedstringa)
     stra = ''
     Base_Fragment_Mass = Fragment_Mass - car - o
-    Total_Fragment_Mass = Base_Fragment_Mass + h + p # Why need subtract H? Need to satisfy the carbonyl group. Maybe hooks to nitrogen?
+    Total_Fragment_Mass = Base_Fragment_Mass + p # Why need subtract H? Need to satisfy the carbonyl group. Maybe hooks to nitrogen?
     arra_base.append(Base_Fragment_Mass)
     arra.append(Total_Fragment_Mass)
     arrlenlistaf.append(aflength)
@@ -653,7 +653,7 @@ with open('Output.csv', 'w') as csvFile:
     csvFile.close()
 
 #Create a title row for matched fragemnts file
-csvData = [['Frag_number', 'Frag Type', 'Fixed Mod', 'Variable Mod', 'Term Mod', 'Observed Mass', 'Theoredical Mass', 'Start AA', 'End AA', 'Error', 'Sequence', 'Intensity', 'Start AA For Fig', 'Formula']]
+csvData = [['Frag_number', 'Frag Type', 'Fixed Mod', 'Variable Mod', 'Term Mod', 'Observed Mass', 'Theoretical Mass', 'Start AA', 'End AA', 'Error', 'Sequence', 'Intensity', 'Start AA For Fig', 'Formula']]
 with open('Output.csv', 'a') as csvFile:
     writer = csv.writer(csvFile)
     writer.writerows(csvData)
