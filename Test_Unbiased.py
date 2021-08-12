@@ -653,7 +653,7 @@ with open('Output.csv', 'w') as csvFile:
     csvFile.close()
 
 #Create a title row for matched fragemnts file
-csvData = [['Frag_number', 'Frag Type', 'Fixed Mod','Variable Mod', 'Term Mod', 'Observed Mass', 'Theoredical Mass', 'Start AA', 'End AA', 'Error', 'Sequence', 'Intensity', 'Start AA For Fig', 'Formula']]
+csvData = [['Frag_number', 'Frag Type', 'Fixed Mod','Variable Mod', 'Term Mod', 'Observed Mass', 'Theoretical Mass', 'Start AA', 'End AA', 'Error', 'Sequence', 'Intensity', 'Start AA For Fig', 'Formula']]
 with open('Output.csv', 'a') as csvFile:
     writer = csv.writer(csvFile)
     writer.writerows(csvData)
