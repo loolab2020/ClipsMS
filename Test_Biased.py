@@ -2573,7 +2573,7 @@ else:
     plt.xticks(np.arange(0, length_sequence + 1, step=round(length_sequence/10)))
 plt.xlabel('Amino Acid Number')
 f=pd.read_csv("Matched_Fragments_V2.csv")
-keep_col = ['Frag Type', 'Fixed Mod', 'Variable Mod', 'Term Mod', 'Observed Mass', 'Theoredical Mass', 'Start AA', 'End AA', 'Error', 'Sequence', 'Intensity', 'Formula']
+keep_col = ['Frag Type', 'Fixed Mod', 'Variable Mod', 'Term Mod', 'Observed Mass', 'Theoretical Mass', 'Start AA', 'End AA', 'Error', 'Sequence', 'Intensity', 'Formula']
 new_f = f[keep_col]
 new_f.to_csv("Matched_Fragments_Final.csv", index=False)
 os.remove("Matched_Fragments_V2.csv")
