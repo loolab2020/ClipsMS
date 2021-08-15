@@ -1823,7 +1823,7 @@ else:
                         holdv = int(my_dataframe['Start AA'][rowd]) - 1
                         holdvn = int(my_dataframe['End AA'][rowd])
                         for i in range(holdv, holdvn):
-                            list_of_counts_arr_internal[holdv] = list_of_counts_arr_internal[holdv] - 1
+                            list_of_counts_arr_terminal[holdv] = list_of_counts_arr_terminal[holdv] - 1
                             holdv = holdv + 1
                         my_dataframe.iloc[my_dataframe.index[rowd]] = np.nan
                     else:
@@ -1899,7 +1899,7 @@ else:
                         holdv = int(my_dataframe['Start AA'][row]) - 1
                         holdvn = int(my_dataframe['End AA'][row])
                         for i in range(holdv, holdvn):
-                            list_of_counts_arr_internal[holdv] = list_of_counts_arr_internal[holdv] - 1
+                            list_of_counts_arr_terminal[holdv] = list_of_counts_arr_terminal[holdv] - 1
                             holdv = holdv + 1
                         my_dataframe.iloc[my_dataframe.index[row]] = np.nan
                     else:
