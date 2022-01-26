@@ -38,6 +38,6 @@ j.	If you are searching for fragments that contain c or z cleavages, you can exc
 3. Once all parameters have been input, click "Run Program".
 4. If you are looking for both internal and terminal fragments, a dialog box will ask if you want to bias for terminal fragments. Click "Yes" if you want to bias for terminal fragments or "No" if you want to treat terminal fragments and internal fragments equally likely.
 5. Depending on the sequence length, the number of observed fragments, and the types of fragments searched, the program could run from ~5s to ~1hour. A progress bar should show in the Spyder software indicating the progress of ClipsMS.
-6. Once completed, a "Matched_Fragments_File.csv" file should appear in the "ClipsMS-main" folder with all matched fragments.
+6. Once completed, a "Matched_Fragments_Final.csv" file should appear in the "ClipsMS-main" folder with all matched fragments.
 7. In addition, three figures indicating the sequence coverage, the cleavage sites, and the fragment location should be output in the "ClipsMS-main" folder.
 If you have any questions or concerns email: internalfragments.loolab@gmail.com
