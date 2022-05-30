@@ -1,10 +1,10 @@
 Software that can analyze terminal and internal fragments in top-down mass spectrometry data.
 Installation Instructions:
 1.	Make sure that your device is running at least python 3.7.
-2.	Download the zip file from GitHub. (This can be found under "Code" on the top right)
+2.	Click on “Releases” on GitHub on the right side of your window.
 3.	Go to your downloads folder and extract the files.
 4.	Place the unzipped file where it will be easy to find.
-5.	Double click the ClipsMS_2.0.0.exe file to run the program.
+5.	Double click the ClipsMS_2.0.0.exe file in the unzipped folder to run the program.
 Program instructions:
 1.	Run the ClipsMS_2.0.0.exe file.
 2.	Insert user parameters into the GUI that appears. 
@@ -12,7 +12,7 @@ A. Insert a PPM error tolerance value for terminal and internal fragments. (We r
 B. Insert the protein sequence you want to compare the fragments against in the sequence box.
 C. Insert a number for the smallest internal fragment size. (We recommend 5 amino acids for most proteins.) 
 D. Click "Observed Fragments" and upload a .csv file with the deconvoluted masses ([M+H]+ format) in column 1 and the intensities in column 2. (If the intensity is not known, insert "1" for all intensity values) 
-E. Choose a terminal modification if you expect one on your sequence. If a terminal modification exists on the protein but does not show up in the list, treat it as a localized modification and place it on the first/last amino acid. 
+E. Choose a terminal modification if you expect one on your protein. If a terminal modification exists on the protein but does not show up in the list, treat it as a localized modification and place it on the first/last amino acid. 
 F. To insert localized modifications, upload a .csv file by clicking the "Localized Modifications" tab. The .csv file should have 4 columns including name of the modification in column 1, the monoisotopic molecular weight in column 2, the amino acid number that contains the modifications in column 3, and a color in the column 4 (all lower case and no spaces). For an example of the format, open the No_Localized_Modificaitons.csv file.
 G. To insert unlocalized modifications, upload a .csv file by clicking the "Unlocalized Modifications" tab. The .csv file should have 12 columns. For an example of the format, open the No_Unlocalized_Modificaitons.csv file.
 i. Column 1 should contain the name of the modification and column 2 should contain the monoisotopic molecular weight of the modification. 
