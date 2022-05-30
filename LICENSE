@@ -1,0 +1,25 @@
+MIT License (modified)
+
+Copyright (c) 2020
+
+Permission is hereby granted, free of charge, to any person or organisation obtaining a copy
+of this software and associated documentation files ("ClipsMS_v2.0.0"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, merge, and/or publish copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+a) modifications to the code will be deemed as no longer property of the authors and any damages caused by modifications of the code will not be liable on the authors
+b) sale of the code to other parties is strictly prohibited under NIH/NSF grant funding schemes 
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Any use of this code for publications should cite "ClipsMS: An Algorithm for Analyzing Internal Fragments Resulting from Top-Down Mass Spectrometry"
