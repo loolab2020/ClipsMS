@@ -4,9 +4,9 @@ Installation Instructions:
 2.	Click on “Releases” on GitHub on the right side of your window.
 3.	Go to your downloads folder and extract the files.
 4.	Place the unzipped file where it will be easy to find.
-5.	Double click the ClipsMS_2.0.0.exe file in the unzipped folder to run the program.
+5.	Double click the ClipsMS_2.0.1.exe file in the unzipped folder to run the program.
 Program instructions:
-1.	Run the ClipsMS_2.0.0.exe file.
+1.	Run the ClipsMS_2.0.1.exe file.
 2.	Insert user parameters into the GUI that appears. 
 A. Insert a PPM error tolerance value for terminal and internal fragments. (We recommended a PPM error of less than 2 to reduce false positives when searching for internal fragments)
 B. Insert the protein sequence you want to compare the fragments against in the sequence box.
